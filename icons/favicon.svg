@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#0a6e3c"/></linearGradient>
+    <clipPath id="b"><circle cx="32" cy="32" r="20"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <circle cx="32" cy="32" r="20" fill="#ffffff"/>
+  <g clip-path="url(#b)" fill="#111827"><polygon points="32.00,25.20 38.47,29.90 36.00,37.50 28.00,37.50 25.53,29.90"/><polygon points="32.00,19.20 26.53,16.96 25.79,8.82 38.21,8.82 37.47,16.96"/><polygon points="44.17,28.04 44.61,22.15 52.13,18.93 55.97,30.74 47.99,32.56"/><polygon points="39.52,42.36 45.26,40.95 50.65,47.10 40.60,54.41 36.41,47.38"/><polygon points="24.48,42.36 27.59,47.38 23.40,54.41 13.35,47.10 18.74,40.95"/><polygon points="19.83,28.04 16.01,32.56 8.03,30.74 11.87,18.93 19.39,22.15"/></g>
+  <g clip-path="url(#b)" stroke="#111827" stroke-width="1.60" stroke-linecap="round"><line x1="32.00" y1="25.20" x2="32.00" y2="19.20"/><line x1="38.47" y1="29.90" x2="44.17" y2="28.04"/><line x1="36.00" y1="37.50" x2="39.52" y2="42.36"/><line x1="28.00" y1="37.50" x2="24.48" y2="42.36"/><line x1="25.53" y1="29.90" x2="19.83" y2="28.04"/><line x1="37.47" y1="16.96" x2="44.61" y2="22.15"/><line x1="47.99" y1="32.56" x2="45.26" y2="40.95"/><line x1="36.41" y1="47.38" x2="27.59" y2="47.38"/><line x1="18.74" y1="40.95" x2="16.01" y2="32.56"/><line x1="19.39" y1="22.15" x2="26.53" y2="16.96"/></g>
+  <circle cx="32" cy="32" r="19.4" fill="none" stroke="#111827" stroke-width="1.20"/>
+</svg>
