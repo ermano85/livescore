@@ -19,6 +19,13 @@ export const LEAGUES = [
   { id: 'champions-league', name: 'Champions League', country: 'UEFA', espn: 'uefa.champions' },
   { id: 'europa-league', name: 'Europa League', country: 'UEFA', espn: 'uefa.europa' },
   { id: 'conference-league', name: 'Conference League', country: 'UEFA', espn: 'uefa.europa.conf' },
+
+  // National teams (Europe). Most of these are dormant for long stretches and
+  // only show up on days they have matches.
+  { id: 'nations-league', name: 'Nations League', country: 'Europe', espn: 'uefa.nations' },
+  { id: 'euro-qualifying', name: 'Euro Qualifying', country: 'Europe', espn: 'uefa.euroq' },
+  { id: 'euro', name: 'European Championship', country: 'Europe', espn: 'uefa.euro' },
+  { id: 'world-cup-qualifying-europe', name: 'World Cup Qualifying', country: 'Europe', espn: 'fifa.worldq.uefa' },
 ];
 
 /** How often to refresh while a match is live and the app is on screen. */

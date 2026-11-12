@@ -85,6 +85,8 @@ Edit the `LEAGUES` list in [js/config.js](js/config.js). Order in the file is or
 - `espn` is ESPN's code for the competition. Find it in the address of the competition's page on espn.com, for example `espn.com/soccer/league/_/name/fra.1` gives `fra.1`.
 - Run `npm run check` to confirm the new entry returns matches.
 
+The list holds the club competitions plus the European national-team ones (Nations League, Euro qualifying, the European Championship, World Cup qualifying in Europe). A competition only appears on days it has matches. Other national-team codes: `fifa.world` (World Cup) and `fifa.friendly` (friendlies, which is one feed for the whole world, not just Europe).
+
 The refresh interval (`LIVE_POLL_MS`) is in the same file. The app's name is in `manifest.webmanifest` and `index.html`.
 
 ## How it is organised
